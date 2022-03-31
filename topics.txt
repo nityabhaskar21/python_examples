@@ -1,0 +1,28 @@
+Python has five standard data types −
+	• Numbers
+	• String
+	• List
+	• Tuple
+    • Dictionary
+
+    Lists are just like the arrays, declared in other languages which is a ordered collection of data. 
+    It is very flexible as the items in a list do not need to be of the same type.
+        List = ["aa", "bb", "cc"] 
+        print(List[0])  
+        print(List[2]) 
+
+    Just like list, tuple is also an ordered collection of Python objects. 
+    The only difference between tuple and list is that tuples are immutable. 
+    Tuples cannot be modified after it is created.
+        Tuple = ('aaa', 'bbb') 
+        print(Tuple)
+        print(tuple[0])
+
+    Dictionary in Python is an unordered collection of data values, 
+    It is used to store data values like a map. 
+    Dictionary holds key:value pair.
+        Dict = {1: 'xyz', 'name': 'abc'} 
+        print(Dict['name']) 
+
+
+
