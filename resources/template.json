@@ -1,0 +1,42 @@
+// Aws vpc configuration
+{
+	"name": "TEST_AWS_VPC",
+	"provider": ["aws"],
+	"template_id": "603de958ab8d5845f03f5dd3",
+	"cloud_accounts": [{
+		"provider": "aws",
+		"cloud_account_id": "619f2c0407e832aefe019e3a",
+		"cloud_account_name": "AWS_SALES",
+		"alias": ""
+	}],
+	"variables": {
+		"vpc_name": "TEST_AWS_VPC",
+		"aws_cloud_accounts": "619f2c0407e832aefe019e3a",
+		"aws_region": "ap-south-1",
+		"vpc_cidr_block": "10.0.0.0/16",
+		"public_subnet_cidr_block": "10.0.0.0/24",
+		"private_subnet_cidr_block": "10.0.1.0/24"
+	},
+	"configuration": {},
+	"variable_names": {
+		"cloud_account_name": "AWS_SALES",
+		"region_name": "Asia Pacific (Mumbai)"
+	}
+}
+
+// Aws vpc portal payload
+{
+    "template_id": "603de958ab8d5845f03f5dd3",
+    "payload": {
+        "name": "aws_vpc_pytest",
+        "vpc_cidr_block": "10.0.0.0/16",
+        "public_subnet_cidr_block": "10.0.0.0/24",
+        "private_subnet_cidr_block": "10.0.1.0/24",
+        "cloud_accounts": [
+            {
+                "cloud_account_id": "619f2c0407e832aefe019e3a",
+                "region": "ap-south-1"
+            }
+        ]
+    }
+}

@@ -3,6 +3,8 @@ import json
 
 def get_bprintApi_request():
     parser = argparse.ArgumentParser()
+
+    #Adding arguements
     parser.add_argument("-request_payload", "--request_payload")
     args = parser.parse_args()
 
