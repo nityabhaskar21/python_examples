@@ -18,3 +18,4 @@ if __name__=="__main__":
     get_bprintApi_request()
 
 # python userArg.py -request_payload="{\"template_id\": \"603de958ab8d5845f03f5dd3\"}"
+# python userArg.py -h
