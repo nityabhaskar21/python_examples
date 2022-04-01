@@ -4,6 +4,8 @@ import time
 index = 1
 
 # http://www.randomnumberapi.com/
+# A simple api to generate random numbers.
+
 param = {
     'min': 10,
     'max': 100,

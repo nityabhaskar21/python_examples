@@ -7,7 +7,7 @@ Python has five standard data types −
 
     Lists are just like the arrays, which is a ordered collection of data. 
     It is very flexible as the items in a list do not need to be of the same type.
-        List = ["aa", "bb", "cc"] 
+        List = ["aa", "bb", 67] 
         print(List[0])  
         print(List[2]) 
 
@@ -35,6 +35,7 @@ Python has five standard data types −
         JSONPlaceholder is a free online REST API that you can use whenever we need some fake data.
         Random email from temp-mail.org
         Random Data Generator REST API produces data on demand. (https://documenter.getpostman.com/view)
+        http://www.randomnumberapi.com a simple api to generate random numbers.
     
     Request with time interval
         using  time.sleep()
