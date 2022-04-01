@@ -11,7 +11,7 @@ print("dict['Age']: ", dict['Age'])
 
 #Updating
 dict['Age'] = 8
-print("\ndict['Age']: ", dict['Age']+"\n")
+print("\nUpdated age - dict['Age']: ", str(dict['Age'])+"\n")
 
 #Iterating
 for key, value in dict.items():

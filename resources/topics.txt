@@ -31,6 +31,11 @@ Python has five standard data types −
         The requests module allows you to send HTTP requests using Python.
         Including POST, GET, DELETE, PUT etc
     
+    External Tools
+        JSONPlaceholder is a free online REST API that you can use whenever we need some fake data.
+        Random email from temp-mail.org
+        Random Data Generator REST API produces data on demand. (https://documenter.getpostman.com/view)
+    
     Request with time interval
         using  time.sleep()
 

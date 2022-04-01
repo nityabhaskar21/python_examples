@@ -5,6 +5,7 @@ import requests
 
 
 #############
+# JSONPlaceholder is a free online REST API that you can use whenever you need some fake data
 # get request 
 response = requests.get("https://jsonplaceholder.typicode.com/users")
 print(response)
@@ -30,13 +31,14 @@ print(responseWithParam.status_code)
 
 #############
 # get request with header
-token = ""
-header = {
-        'Authorization': token,
-        'Content-Type' : 'application/json'
-    } 
-responseWithHeader = requests.get(
-    "https://lab1.cloudinfinit.com/service/blueprint-service/api/blueprints",
-     headers=header).json()
 
-print(responseWithHeader)
+# token = ""
+# header = {
+#         'Authorization': token,
+#         'Content-Type' : 'application/json'
+#     } 
+# responseWithHeader = requests.get(
+#     "https://lab1.cloudinfinit.com/service/blueprint-service/api/blueprints",
+#      headers=header).json()
+
+# print(responseWithHeader)
