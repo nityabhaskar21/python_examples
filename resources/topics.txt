@@ -48,6 +48,7 @@ Python has five standard data types −
         template.json for blueprints payloads
 
     cmp_api_service
+        get the Bearer token for the user
         "https://vault.sify.net/cmp/repos/services/cmp_api_service/-/blob/kc_login_service/src/main/java/com/sify/cmp/api/controller/ApiServiceController.java"
 
 

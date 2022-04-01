@@ -1,6 +1,8 @@
 import dbm
 
 # dbm package in python provides a simple dictionary like interface of the form DBM (DataBase Manager)
+# dbm stores data in simple key – value pair form like a dictionary ,
+# which makes it easier to insert, edit and retrieve data from database.
 
 # dbm.open(file, flag=’r’)
 # ‘r’: open the existing database with permission to read only.
@@ -24,6 +26,11 @@ db = dbm.open('store','c')
 db['auth'] = "780179396caac4adc50161bc46abdfc2"
 
 keys = db.keys()
+
+# Here keys are stored in byte format
+# Use decode() to convert the bytes to normal string object
+
+print("Keys: "+ str(keys))              # str() is used just to concatenate list with str for print
 if bytes('auth', 'utf-8') in keys: 
     print("Auth key stored in dbm: "+ db.get('auth').decode())
 else:
