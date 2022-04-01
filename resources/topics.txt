@@ -47,6 +47,8 @@ Python has five standard data types −
         A blueprint form presents a simplified input screen and provision all the bundled resources in single go.
         template.json for blueprints payloads
 
+    cmp_api_service
+        "https://vault.sify.net/cmp/repos/services/cmp_api_service/-/blob/kc_login_service/src/main/java/com/sify/cmp/api/controller/ApiServiceController.java"
 
 
 
