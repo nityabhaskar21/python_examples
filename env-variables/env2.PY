@@ -3,4 +3,4 @@ import os
 
 load_dotenv()
 PROFILE = os.getenv("PROFILE")
-print(PROFILE)
+print(PROFILE) 
