@@ -6,12 +6,12 @@ dict = {
     }
 
 #Accessing 
-print("dict['Name']: ", dict['Name'])
-print("dict['Age']: ", dict['Age'])
+# print("dict['Name']: ", dict['Name'])
+# print("dict['Age']: ", dict['Age'])
 
-#Updating
-dict['Age'] = 8
-print("\nUpdated age - dict['Age']: ", str(dict['Age'])+"\n")
+# # Updating
+# dict['Age'] = 8
+# print("\nUpdated age - dict['Age']: ", str(dict['Age'])+"\n")
 
 #Iterating
 for key, value in dict.items():

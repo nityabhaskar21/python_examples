@@ -29,16 +29,16 @@ print(responseWithParam.json())
 print(responseWithParam.status_code)
 
 
-#############
+############
 # get request with header
 
-# token = ""
-# header = {
-#         'Authorization': token,
-#         'Content-Type' : 'application/json'
-#     } 
-# responseWithHeader = requests.get(
-#     "https://lab1.cloudinfinit.com/service/blueprint-service/api/blueprints",
-#      headers=header).json()
+token = ""
+header = {
+        'Authorization': token,
+        'Content-Type' : 'application/json'
+    } 
+responseWithHeader = requests.get(
+    "https://lab1.cloudinfinit.com/service/blueprint-service/api/blueprints",
+     headers=header).json()
 
-# print(responseWithHeader)
+print(responseWithHeader)

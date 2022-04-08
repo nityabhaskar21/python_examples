@@ -16,7 +16,7 @@ def get_bprintApi_request():
     print("\nReceived request payload:")
     print(blueprint_request['request_payload']) 
 
-    # print(blueprint_request) 
+    print(blueprint_request) 
 
 
 
