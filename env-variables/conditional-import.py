@@ -1,5 +1,4 @@
 import os
-from unicodedata import name
 from dotenv import load_dotenv
 load_dotenv()
 
